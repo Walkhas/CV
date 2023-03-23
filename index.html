@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="js/konami.js"></script>  
+</head>
+<!--
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣶⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠠⠛⠛⣿⣿⡄⠀⠀⢠⣤⠀⠀⠀⢀⡀⣀⣠⣤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⡄⠀⠀⠀⠀⠀⠀⠀⢀⣠⣿⣿⣿⣦⣤⣼⣿⠇⠀⢰⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠐⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠀⠀⠰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⢀⣽⣿⡏⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠈⠻⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣄⠀⠀⠀⢀⣿⣦⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⣠⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠈⠙⢿⣷⣦⣀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣶⣾⣿⣿⣿⡿⠿⠟⠛⠛⠛⠛⠛⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣦⣄⡀⠀⠀⣠⣾⣿⣿⣿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⢿⣿⣿⣿⣿⣿⣿⣷⣤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣷⣾⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀ ⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣿⣿⣿⣿⣿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⠷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠲⠶⢶⣦⣤⣾⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⠿⠆⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⡄⠀⠀⠀⠀⠀⠀⠀ ⠀⢠⣾⣧⡀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣧⣤⡄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⣿⣄⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡿⠛⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠙⣿⣿⣇⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⢰⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣿⣿⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⣸⣿⣿⡿⠟⠿⠷⠶⠤⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⣿⣿⣿⣇⠀⠀⠀⠠⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠧⠼⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠄⠀⠀⢠⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢹⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⢀⣾⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⣠⣿⣿⣿⣿⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⢿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣾⣿⣿⣿⣿⣿⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⡿⠟⠁⠀⠈⠙⠻⢿⣿⣶⣄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣶⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣶⣿⣿⣿⠿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣷⣤⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣿⣿⣿⣿⠿⠿⢿⠉⠀⠀⠀⠙⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢦⣀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⢸⣿⡿⠋⠉⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠈⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣤⣤⣴⣿⣿⣧⡄⠀⢠⣼⡿⠛⢿⣿⣿⣿⠏⠁⠀⠀⠀⠀⠀⠀⠈⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⠿⠛⠛⠋⠀⠀⠘⠿⠁⠀⠀⠙⣿⣿⣄⣠⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+-->
+<body>
+    
+
+    </audio>
+    <header>
+        <div class="tarjeta">
+                <div><img class="image-profile" src="profile.jpg" alt="Foto de perfil"></div>
+                <h1>Mi CV</h1>
+                <h2 class="nombre">Marco Escaroz</h2>
+                <h3 class="puesto">Auxiliar de QA</h3>
+                <li class="redes">
+                    <ul><a class="twitter" href="https://twitter.com/_Marcox_" target="_blank"><img src="icons/twitte.png" alt="Logo Twitter negro" target="_blank"></a> </ul>    
+                    <ul><a class="insta" href="https://www.instagram.com/marco_ez/" target="_blank"><img src="icons/instagram.png" alt="Logo instagram negro"></a> </ul>
+                    <ul><a class="github" href="https://github.com/Walkhas" target="_blank"><img src="icons/github.png" alt="Logo GitHub negro"></a> </ul>
+                    <ul><a class="linkedin" href="https://www.linkedin.com/in/marco-escaroz-645b97234/" target="_blank"><img src="icons/linkedin.png" alt="Logo linkedin"></a> </ul>
+                </li>
+                <div class="Info">
+                    <li class="info">
+                        <ul><span class="material-symbols-outlined">calendar_month</span> 15 de Octubred de 1996</ul>
+                        <ul><span class="material-symbols-outlined">home_pin</span> Merida, Yucatan, Mexico</ul>
+                        <ul><span class="material-symbols-outlined">mail</span> yosoywalkhas@gmail.com</ul>
+                        <ul><span class="material-symbols-outlined">video_chat</span>MarcoX#4958</ul>
+                    </li>
+                </div>
+                <div class="secret">
+                    <p><strong>[↑] [↑] [↓] [↓] [←] [→] [←] [→] [B] [A] </strong></p>
+                </div>
+        </div>
+        
+    </header>
+    <article class="Principal">
+        <section class="About"></section>
+        <h2 class="Mi">Sobre Mi</h2>
+        <p>Soy una persona apasionada por la tecnología y los desafíos. Me considero una persona que aprende rápido y está dispuesta a enfrentar nuevos retos para seguir creciendo profesionalmente. Me siento cómodo en entornos dinámicos y en constante evolución, y desarrollando habilidades en desarollo web. Mi interés por la tecnología se traduce en una curiosidad constante por las últimas tendencias y novedades del sector. Actualmente trabajo como asistente de QA para Scale IA, llevo 2 años en dicho puesto. En mi trabajo he logrado estar supervisando varios proyectos pequeños, asi como guiar un equipo pequeño, y estoy siempre en busca de nuevas oportunidades para aplicar mis habilidades y conocimientos en proyectos innovadores.</p>    
+        <h3 class="SkillsT">Mis Skills</h3>
+        <ul class="skills">
+            <li>Resolucion de problemas</li>
+            <li>Manejo de personal</li>
+            <li>Trabajo bajo presion</li>
+        </ul>    
+        <ul class="skills2">    
+            <li>Adepto tecnologico con habilidades avanzadas de computacion</li>
+            <li>Habilidad para trabajar en varias cosas al mismo tiempo</li>
+            <li>Habilidad de aprender rapido y sobre la marcha</li>
+        </ul>
+        <h3 class="Hobbies">Hobbies</h3>
+        <li class="hobbielist">
+            <ul class="games"><img src="icons/videojuego.png"><strong>Videojuegos</strong></ul>    
+            <ul class="coock"><img src="icons/cocinando.png"><strong>Cocina</strong></ul>
+            <ul class="read"><img src="icons/libro.png"><strong>Libros y Lectura</strong></ul>
+            <ul class="tech"><img src="icons/cuantico.png"><strong>Computacion y Tecnologia</strong></ul>
+        </ul>
+    </article>
+
+
+    <footer>
+        
+    </footer>
+</body>
+</html>  
